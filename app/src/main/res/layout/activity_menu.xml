@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/imageView"
+        android:layout_width="372dp"
+        android:layout_height="236dp"
+        android:src="@mipmap/ic_title_qr_code"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:textColor="#9C27B0"
+        android:textStyle="bold"
+        android:text="QR CODE" />
+
+    <Button
+        android:id="@+id/btnCrateQR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/custom_button"
+        android:textStyle="bold"
+        android:text="KHỞI TẠO QR CODE" />
+
+    <Button
+        android:id="@+id/btnScanQR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_button"
+        android:text="QUÉT QR CODE Từ camera"
+        android:textStyle="bold"
+        android:layout_weight="0.05" />
+    <Button
+        android:id="@+id/btnScanQRimg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_button"
+        android:text="QUÉT QR CODE Từ Thư viện"
+        android:textStyle="bold"
+        android:layout_weight="0.05" />
+</LinearLayout>

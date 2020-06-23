@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ScanQR_by_NMK</string>
+    <string name="result_text_default">Nhập mã QR qua Camera</string>
+</resources>
